@@ -28,15 +28,13 @@ const home = (props) => {
           <Card body inverse style={{backgroundColor: "#FFFFFF", borderColor: "#DCDCDC"}}>
             {/* <CardImg className="CardImage text-center" src={banner}/> This is how one would insert image into a card */}
             <CardBody className="CardBody">
-              <CardTitle className="CardTitle text-center"> Sustainability can be affordable and chic. No greenwashing guaranteed. </CardTitle>
+              <CardTitle className="CardTitle text-center"> Don't spend money to save money </CardTitle>
               {/* <CardSubtitle className="CardSubtitle text-center">Some subtitle text</CardSubtitle> */}
               <CardText className="CardSubtitle text-center">
-                We are a project that advocates for sustainable lifestyles. Limiting our hyper-consumerist economy to Earth’s finite resources,
-                we encourage consumers to engage in minimalist lifestyles, slow fashion and slow architecture by purchasing from student designers, 
-                creators, and artists. We are looking to upcycle second hand clothing, textiles and everyday waste, giving them a new life in fashion, 
-                art, and architecture.
+              Project Deductive all started with a simple goal, to make accounting more manageable for self-contracted workers. By capturing data 
+              from user receipts, we will predict the user's spending habits and offer them aid with managing their book-keeping.
               </CardText>
-              <Button href="/signup" className="CardButton text-center" style={{padding: "10px"}}>Join our Ecomode Campaign</Button>
+              <Button href="/about" className="CardButton text-center" style={{padding: "10px"}}>Learn more about the Project</Button>
             </CardBody>
           </Card>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import TaxAppNav from '../GlobalComponents/TaxAppNav';
 import '../Stylesheets/App.css';
+import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button} from 'reactstrap';
 
 const team = (props) => {
     return (

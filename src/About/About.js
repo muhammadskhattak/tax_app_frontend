@@ -14,26 +14,24 @@ const about = (props) => {
             {/* <CardImg className="CardImage text-center" src={banner}/> This is how one would insert image into a card */}
             <CardBody className="CardBody">
               <CardTitle className="CardTitle text-center">
-                At the core, Ecomode aims to promote sustainable living in terms of fashion and architecture 
-                to the students of University of Toronto and beyond. 
+              Don't spend money to save money!
               </CardTitle>
               {/* <CardSubtitle className="CardSubtitle text-center">Some subtitle text</CardSubtitle> */}
               <CardText className="CardSubtitle text-center">
-                Sustainability is a hot topic at the moment: it’s fashionable and forward-thinking, but still an inaccessible luxury to most students. 
-                One can forgo the use of plastic straws and such, but fashion and living spaces are embedded in the centre of our everyday lives and our culture. 
-                Thus, we want to create a culture of sustainability from these mediums.
+              Deductive aims to cut the middleman out of accounting for self-contracted workers
               </CardText>
               <CardText className="CardSubtitle text-center">
-                We want to engage student designers, student stylists, student photographers and student consumers in upcycling textiles, “trash” and second hand 
-                materials to give them a new, unique identity in prêt-a-porter and couture. Each piece is based on the individual, customized by the designer and 
-                produced only once to highlight the laborous story of modern fashion production. 
-                Because we involve no outsourcing and no new textiles, Ecomode clothing is incredibly affordable, rivalling the price of fast fashion whilst 
-                reducing waste at the same time. Everyone will be able to participate in our mission.
-                Our goals all adhere to the principles of slowness and economic degrowth - a slow production approach to consumerist culture and an emphasis of 
-                upcycling to promote quality and reuse of products - which would contribute to a sustainable local economy. Ecomode hopes to engage by hosting 
-                two art exhibits and one final fashion show where upcycled clothes, architectural models and art will be exhibited. To complete our sustainable 
-                cycle, we will be donating all our expected proceeds (from clothing sales and tickets) to a local charity as an investment back into the city for 
-                supporting sustainable purchases.
+              Project Deductive is a project that aims to cut the middleman out of managing a users taxes. Specfically, 
+              for self-contracted workers we hope to simplify their lives by allowing users to capture their receipts and
+              efficiently store them for the purpose of end of year taxes. This saves users from having to store physical 
+              copies of their receipts, which easily get lost or damaged.
+              </CardText>
+              <CardText className="CardSubtitle text-center">
+              With the receipt images, we will be able to process them to gather relevant information. Using this we can
+              predict a user's spending habits and based on their income recommend to them the best way to manage their money
+              so that they can get the products they need and make the most out of their tax deductions. With all this data we 
+              will also be able to produce tax forms for users to simplify the process for them, removing one of the many 
+              expenses of being self-contracted.
               </CardText>
             </CardBody>
           </Card>
