@@ -37,6 +37,9 @@ export default class TaxAppNav extends React.Component {
                 <NavItem>
                   <NavLink href="/team">Team</NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink href="/demo">Demo</NavLink>
+                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>

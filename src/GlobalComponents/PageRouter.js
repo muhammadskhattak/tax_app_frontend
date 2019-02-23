@@ -4,6 +4,7 @@ import App from '../App/App';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Team from '../Team/Team';
+import Demo from '../Demo/Demo';
 import PathNotFound from './PathNotFound';
 
 const routing = (props) => {
@@ -15,6 +16,7 @@ const routing = (props) => {
                     <Route path="/home" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/team" component={Team} />
+                    <Route path="/demo" component={Demo} />
                     <Route component={PathNotFound} />
                 </Switch>
             </div>
