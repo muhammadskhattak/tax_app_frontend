@@ -15,6 +15,7 @@ export default class Demo extends React.Component {
         };
         this.handleChange = this.handleChange.bind(this);
         this.submitImage = this.submitImage.bind(this);
+        this.testDatabase = this.testDatabase.bind(this);
     }
 
     // Handles changes 
@@ -33,7 +34,8 @@ export default class Demo extends React.Component {
     submitImage(){
         let data = new FormData();
         data.append('file', this.state.picture);
-        axios.post('https://api.taggun.io/api/receipt/v1/simple/file', data, {
+        console.log(data);
+        axios.post('https://api.taggun.io/api/receipt/v1/verbose/file', data, {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'multipart/form-data',
@@ -51,16 +53,30 @@ export default class Demo extends React.Component {
         });
     }
 
+    testDatabase(){
+        console.log("button pressed");
+        axios.get(
+            'http://35.203.8.67/rating?userId=Dentist'
+        ).then((response) => {
+            console.log(response);
+        }).catch((response) => {
+            console.log(response);
+        })
+    }
+
     render() {
         return (
             <div>
                 <TaxAppNav />
                 <input type="file" onChange={this.handleChange} />
-                {/* <div style={{textAlign: 'center'}}>
-                    <img src={this.state.pictureURL} style={{textAlign: 'center'}}/>
-                </div> */}
+                <div style={{textAlign: 'center'}}>
+                    <img src={this.state.pictureURL} style={{textAlign: 'center', maxHeight: '256px'}}/>
+                </div>
                 <div>
                     <button onClick={this.submitImage}>Upload Image</button>
+                </div>
+                <div>
+                    <button onClick={this.testDatabase}>Test DB</button>
                 </div>
             </div>
         );
