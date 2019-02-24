@@ -4,6 +4,7 @@ import '../Stylesheets/Home.css';
 import '../Stylesheets/App.css';
 import { Parallax } from 'react-parallax';
 import TaxAppNav from '../GlobalComponents/TaxAppNav';
+import TaxAppForm from '../GlobalComponents/Form';
 import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button} from 'reactstrap';
 
 
