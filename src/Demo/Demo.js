@@ -21,7 +21,7 @@ export default class Demo extends React.Component {
         };
         this.handleChange = this.handleChange.bind(this);
         this.submitImage = this.submitImage.bind(this);
-        this.testDatabase = this.testDatabase.bind(this);
+        this.submitDatabase = this.submitDatabase.bind(this);
         this.formSubmissionHandler = this.formSubmissionHandler.bind(this);
     }
 
